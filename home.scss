@@ -1,0 +1,216 @@
+body {
+    .error {
+
+        margin-top: 150px;
+        margin-left: 20px;
+        color: rgb(82, 81, 81);
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+
+        .error-img {
+            position: relative;
+            right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .details {
+
+            padding-bottom: 50px;
+            position: relative;
+            top: 20px;
+            color: rgb(82, 81, 81);
+        }
+
+    }
+
+    background-color: rgb(247, 247, 247);
+
+    header {
+        display: none;
+    }
+
+    .homepage1 {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+
+
+
+@media all and (min-width: 375px) and (max-width: 428px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        background-color: rgb(247, 247, 247);
+        flex-direction: column;
+
+        .error {
+            display: none;
+        }
+
+
+
+        .home {
+            display: flex;
+            flex-direction: column;
+
+            .Ticket {
+                display: block;
+                color: white;
+                background: rgb(255, 143, 0);
+                background: linear-gradient(90deg, rgba(255, 143, 0, 1) 0%, rgb(247, 74, 0) 66%);
+                margin-bottom: 16px;
+
+
+                .header-Title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 20px;
+
+
+                    h3 {
+                        font-size: 15px;
+                        display: flex;
+                        margin-right: 110px;
+                        margin-top: 20px;
+                    }
+
+                    .option-menu {
+                        img {
+                            width: 25px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            .homepage1 {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                min-height: 71vh;
+
+
+                .home-text {
+                    margin: 10px;
+
+                    h4 {
+                        font-size: 16px;
+                        margin-left: 80px;
+                        margin-bottom: 30px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        margin-left: 10px;
+                        text-align: center;
+                    }
+
+                }
+
+                .btn-ticket {
+                    padding: 15px;
+                    background-color: rgb(202, 33, 3);
+                    color: white;
+                    border-radius: 5px;
+                    border: none;
+                    margin: 10px;
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    text-decoration: none;
+
+                }
+            }
+
+            .homepage2 {
+                display: none;
+                min-height: 71vh;
+
+                .ticket-use {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 25px;
+
+                    button {
+                        border: none;
+                        margin-bottom: 20px;
+                    }
+
+                    h6 {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                    margin-bottom: 130px;
+                }
+
+                .btn-ticket2 {
+                    padding: 15px;
+                    background-color: rgb(202, 33, 3);
+                    color: white;
+                    border-radius: 5px;
+                    border: none;
+                    margin: 10px;
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    text-decoration: none;
+
+                }
+
+            }
+
+
+
+            footer {
+                display: block;
+                border: 1px solid rgb(219, 219, 219);
+                background-color: white;
+                padding: 20px;
+
+                ul {
+                    display: flex;
+
+                    justify-content: space-around;
+
+                    li {
+                        list-style: none;
+                        display: flex;
+
+                        a {
+                            font-size: 11px;
+                            text-decoration: none;
+                            color: rgb(173, 173, 173);
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            img {
+                                width: 30px;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,646 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+body .error {
+  margin-top: 150px;
+  margin-left: 20px;
+  color: rgb(82, 81, 81);
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+body .error .error-img {
+  position: relative;
+  right: 20px;
+  margin-bottom: 20px;
+}
+body .error .details {
+  padding-bottom: 50px;
+  position: relative;
+  top: 20px;
+  color: rgb(82, 81, 81);
+}
+body header {
+  display: none;
+}
+body .homepage1 {
+  display: none;
+}
+body footer {
+  display: none;
+}
+
+@media all and (min-width: 375px) and (max-width: 428px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column;
+  }
+  body .error {
+    display: none;
+  }
+  body .home {
+    display: flex;
+    flex-direction: column;
+  }
+  body .home .Ticket {
+    display: block;
+    color: white;
+    background: rgb(255, 143, 0);
+    background: linear-gradient(90deg, rgb(255, 143, 0) 0%, rgb(247, 74, 0) 66%);
+    margin-bottom: 16px;
+  }
+  body .home .Ticket .header-Title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  body .home .Ticket .header-Title h3 {
+    font-size: 15px;
+    display: flex;
+    margin-right: 110px;
+    margin-top: 20px;
+  }
+  body .home .Ticket .header-Title .option-menu img {
+    width: 25px;
+    margin-top: 20px;
+  }
+  body .home .homepage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 71vh;
+  }
+  body .home .homepage1 .home-text {
+    margin: 10px;
+  }
+  body .home .homepage1 .home-text h4 {
+    font-size: 16px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+  }
+  body .home .homepage1 .home-text p {
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  body .home .homepage1 .btn-ticket {
+    padding: 15px;
+    background-color: rgb(202, 33, 3);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .home .homepage2 {
+    display: none;
+    min-height: 71vh;
+  }
+  body .home .homepage2 .ticket-use {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 130px;
+  }
+  body .home .homepage2 .ticket-use button {
+    border: none;
+    margin-bottom: 20px;
+  }
+  body .home .homepage2 .ticket-use h6 {
+    font-size: 12px;
+  }
+  body .home .homepage2 .ticket-use p {
+    font-size: 12px;
+  }
+  body .home .homepage2 .btn-ticket2 {
+    padding: 15px;
+    background-color: rgb(202, 33, 3);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body .home footer {
+    display: block;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 20px;
+  }
+  body .home footer ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  body .home footer ul li {
+    list-style: none;
+    display: flex;
+  }
+  body .home footer ul li a {
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .home footer ul li a img {
+    width: 30px;
+  }
+}
+body {
+  background-color: rgb(247, 247, 247);
+}
+body .error {
+  margin-top: 150px;
+  margin-left: 20px;
+  color: rgb(82, 81, 81);
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+body .error .error-img {
+  position: relative;
+  right: 20px;
+  margin-bottom: 20px;
+}
+body .error .details {
+  padding-bottom: 50px;
+  position: relative;
+  top: 20px;
+  color: rgb(82, 81, 81);
+}
+body header {
+  display: none;
+}
+body .buy {
+  display: none;
+}
+body .pay {
+  display: none;
+}
+
+@media all and (min-width: 375px) and (max-width: 428px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column;
+  }
+  body .Ticket {
+    display: block;
+    color: white;
+    background: rgb(255, 143, 0);
+    background: linear-gradient(90deg, rgb(255, 143, 0) 0%, rgb(247, 74, 0) 66%);
+  }
+  body .Ticket .header-Title {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  body .Ticket .header-Title .cross {
+    width: 15px;
+  }
+  body .Ticket .header-Title h3 {
+    font-size: 18px;
+    display: flex;
+    margin-left: 110px;
+  }
+  body .Ticket .header-Title .settings {
+    width: 30px;
+    margin-left: 80px;
+  }
+  body .Ticket .header-Title .option-menu img {
+    width: 25px;
+    margin-left: 10px;
+  }
+  body .error {
+    display: none;
+  }
+  body .buy {
+    display: flex;
+    flex-direction: column;
+  }
+  body .buy .journey {
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  body .buy .journey .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+  }
+  body .buy .journey .left img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  body .buy .journey .left .left-text h4 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-overflow: clip;
+  }
+  body .buy .journey .left .left-text p {
+    font-size: 10px;
+    margin-top: 8px;
+    color: grey;
+    box-sizing: border-box;
+  }
+  body .buy .journey .right {
+    margin-left: 30px;
+  }
+  body .buy .journey .right .how-much {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  body .buy .journey .right .how-much .less {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 16px;
+  }
+  body .buy .journey .right .how-much .more {
+    background-color: rgb(221, 37, 4);
+    border: none;
+    color: white;
+  }
+  body .buy .journey .right .how-much .second-choise {
+    margin-left: 90px;
+  }
+  body .buy .journey .right .how-much button {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    border-radius: 100%;
+  }
+  body .buy .journey .right h5 {
+    margin-left: 25px;
+    margin-top: 5px;
+    background-color: rgb(218, 215, 215);
+    width: 45px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  body .buy .journey .right .second {
+    margin-left: 12px;
+  }
+  body .buy .order {
+    background-color: white;
+    box-shadow: rgba(117, 117, 117, 0.35) 0px 2px 15px;
+    margin-top: 210px;
+    padding-bottom: 22px;
+    display: none;
+    flex-direction: column;
+  }
+  body .buy .order .total {
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  body .buy .order .btn1 {
+    padding: 15px;
+    background-color: rgb(202, 33, 3);
+    margin: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  body .pay {
+    display: none;
+  }
+  body .pay .total-order {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+  }
+  body .pay .total-order .price {
+    margin: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    border: 1px dashed rgb(196, 194, 194);
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 30px;
+  }
+  body .pay .total-order .price span {
+    margin-left: 90px;
+  }
+  body .pay .total-order .what-journey {
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+  body .pay .total-order .what-journey span {
+    margin-left: 110px;
+  }
+  body .pay .total-order .condition {
+    display: flex;
+    justify-content: space-around;
+  }
+  body .pay .total-order .condition button {
+    padding: 5px;
+    background-color: white;
+    border-color: gray;
+    border-radius: 3px;
+  }
+  body .pay .total-order .condition p {
+    font-size: 12px;
+  }
+  body .pay .total-order .condition p a {
+    color: rgb(77, 124, 255);
+  }
+  body .pay .btn {
+    display: flex;
+    flex-direction: column;
+  }
+  body .pay .btn .btn2 {
+    padding: 15px;
+    background-color: rgb(202, 33, 3);
+    margin: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 375px) and (max-width: 428px) {
+  .payment {
+    display: none;
+  }
+  .payment .head-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background-color: white;
+  }
+  .payment .head-page img {
+    width: 120px;
+    height: 20px;
+  }
+  .payment .head-page p {
+    background-color: rgb(71, 71, 71);
+    padding: 15px;
+    color: white;
+  }
+  .payment .amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+  }
+  .payment .amount img {
+    width: 40px;
+  }
+  .payment .amount h4 {
+    color: grey;
+    margin-left: 70px;
+    font-size: 18px;
+  }
+  .payment form {
+    background-color: white;
+  }
+  .payment form .number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .payment form .number .cart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+  }
+  .payment form .number .cart input {
+    width: 250px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 3px;
+  }
+  .payment form .number .cart img {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: 215px;
+    bottom: 29px;
+    border: 1px solid rgb(189, 189, 189);
+    border-width: 0px 0px 0px 2px;
+  }
+  .payment form .number button {
+    border: 2px solid rgb(189, 189, 189);
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 100%;
+    color: rgb(100, 100, 100);
+    position: relative;
+    bottom: 6px;
+    background-color: white;
+  }
+  .payment form .expired {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  .payment form .expired .left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    color: grey;
+  }
+  .payment form .expired .left input {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 3px;
+  }
+  .payment form .expired .right {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  .payment form .expired .right input {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 3px;
+  }
+  .payment form .secret-code {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .payment form .secret-code .code {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    margin-right: 90px;
+  }
+  .payment form .secret-code .code input {
+    width: 80px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 3px;
+  }
+  .payment form .secret-code button {
+    border: 2px solid rgb(189, 189, 189);
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 100%;
+    color: rgb(100, 100, 100);
+    position: relative;
+    top: 8px;
+    right: 200px;
+    background-color: white;
+  }
+  .payment form .btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+  }
+  .payment form .btn button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(59, 88, 255);
+    border: none;
+  }
+  .payment form .cart-name {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .payment .brand .cancel {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .payment .brand .cancel a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    border: 1px solid rgb(150, 150, 150);
+    border-width: 0px 0px 1px 0px;
+    padding: 5px;
+    padding-left: 155px;
+  }
+  .payment .brand .footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+  .payment .brand .footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .payment .brand .footer .left img {
+    width: 150px;
+  }
+  .payment .brand .footer .left p {
+    font-size: 10px;
+    color: grey;
+  }
+  .payment .brand .footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .payment .brand .footer .right img {
+    width: 150px;
+  }
+  .payment .brand .footer .right a {
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .finish {
+    display: none;
+    background-color: white;
+  }
+  .finish .accept {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+  .finish .accept img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .finish .accept h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .finish .accept p {
+    font-size: 12px;
+    color: grey;
+    margin: 20px;
+    text-align: center;
+  }
+  .finish .btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .finish .btn button {
+    padding: 15px;
+    background-color: rgb(202, 33, 3);
+    margin: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+}
+body {
+  background-color: white;
+}
+body .home-img .logo {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .home-img .ident {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

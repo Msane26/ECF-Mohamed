@@ -1,0 +1,292 @@
+body {
+    .error {
+
+        margin-top: 150px;
+        margin-left: 20px;
+        color: rgb(82, 81, 81);
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+
+        .error-img {
+            position: relative;
+            right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .details {
+
+            padding-bottom: 50px;
+            position: relative;
+            top: 20px;
+            color: rgb(82, 81, 81);
+        }
+
+    }
+
+    background-color: rgb(247, 247, 247);
+
+    header {
+        display: none;
+    }
+
+    .buy {
+        display: none;
+    }
+    .pay{
+        display: none;
+    }
+    // .payment{
+    //     display: none;
+    // }
+
+
+}
+
+
+
+
+@media all and (min-width: 375px) and (max-width: 428px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        background-color: rgb(247, 247, 247);
+        flex-direction: column;
+
+        .Ticket {
+            display: block;
+            color: white;
+            background: rgb(255, 143, 0);
+            background: linear-gradient(90deg, rgba(255, 143, 0, 1) 0%, rgb(247, 74, 0) 66%);
+
+
+            .header-Title {
+                display: flex;
+                align-items: end;
+                justify-content: space-between;
+                padding: 20px;
+
+                .cross {
+                    width: 15px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    display: flex;
+                    margin-left: 110px;
+                }
+
+                .settings {
+                    width: 30px;
+                    margin-left: 80px;
+                }
+
+                .option-menu {
+                    img {
+                        width: 25px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .error {
+            display: none;
+        }
+
+        .buy {
+            display: flex;
+            flex-direction: column;
+
+
+            .journey {
+                display: flex;
+                background-color: white;
+                padding-top: 20px;
+                border: 1px solid rgb(214, 214, 214);
+                align-items: center;
+                padding-bottom: 20px;
+
+                .left {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-right: 40px;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        margin: 10px;
+                    }
+
+                    .left-text {
+                        h4 {
+                            font-size: 12px;
+                            font-weight: 600;
+                            margin-top: 20px;
+                            text-overflow: clip;
+
+
+                        }
+
+                        p {
+                            font-size: 10px;
+                            margin-top: 8px;
+                            color: grey;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+
+                .right {
+                    margin-left: 30px;
+
+                    .how-much {
+                        display: flex;
+                        align-items: center;
+                        font-size: 20px;
+
+                        .less {
+                            background-color: white;
+                            border: 1px solid grey;
+                            color: grey;
+                            font-size: 16px;
+                        }
+
+                        .more {
+                            background-color: rgb(221, 37, 4);
+                            border: none;
+                            color: white;
+                        }
+
+                        .second-choise {
+                            margin-left: 90px;
+                        }
+
+                        button {
+                            width: 20px;
+                            height: 20px;
+                            margin: 8px;
+                            border-radius: 100%;
+                        }
+                    }
+
+                    h5 {
+                        margin-left: 25px;
+                        margin-top: 5px;
+                        background-color: rgb(218, 215, 215);
+                        width: 45px;
+                        padding: 3px;
+                        border-radius: 5px;
+                    }
+
+                    .second {
+                        margin-left: 12px;
+                    }
+                }
+            }
+
+            .order {
+                background-color: white;
+                box-shadow: rgba(117, 117, 117, 0.35) 0px 2px 15px;
+                margin-top: 210px;
+                padding-bottom: 22px;
+                display: none;
+                flex-direction: column;
+
+                .total {
+                    margin-left: 250px;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+
+                .btn1 {
+                    padding: 15px;
+                    background-color: rgb(202, 33, 3);
+                    margin: 10px;
+                    margin-top: 30px;
+                    color: white;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .pay {
+            display: none;
+            .total-order {
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                min-height: 70vh;
+
+                .price {
+                    margin: 10px;
+                    margin-bottom: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 16px;
+                    border: 1px dashed rgb(196, 194, 194);
+                    border-width: 0px 0px 1px 0px;
+                    padding-bottom: 30px;
+
+                    span {
+                        margin-left: 90px;
+                    }
+                }
+
+                .what-journey {
+                    margin: 10px;
+                    margin-bottom: 50px;
+                    font-size: 14px;
+
+                    span {
+                        margin-left: 110px;
+                    }
+                }
+
+                .condition {
+                    display: flex;
+                    justify-content: space-around;
+
+                    button {
+                        padding: 5px;
+                        background-color: white;
+                        border-color: gray;
+                        border-radius: 3px;
+                    }
+
+                    p {
+                        font-size: 12px;
+
+                        a {
+                            color: rgb(77, 124, 255);
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                display: flex;
+                flex-direction: column;
+
+                .btn2 {
+                    padding: 15px;
+                    background-color: rgb(202, 33, 3);
+                    margin: 10px;
+                    margin-top: 30px;
+                    color: white;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+
+}

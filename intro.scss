@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+
+    .home-img {
+
+        .logo {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ident{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

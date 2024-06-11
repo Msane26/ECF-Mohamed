@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="payment.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="error">
+        <img class="error-img" src="img/Capture d’écran du 2024-06-03 00-01-12.png" alt="">
+        <h2>Impossible de se connecter a Internet</h2>
+        <p>Cette page Web ne peut pas s'afficher dans Google Chrome, car votre ordinateur n'est pas connecté a Internet
+        </p>
+        <a class="details" href="">Détails</a>
+    </div>
+
+
+    <header class="Ticket">
+        <div class="header-Title">
+            <a class="crossT" href=""><img class="cross"
+                    src="img/pngtree-cancel-flat-white-color-icon-x-cross-cross-stop-vector-png-image_19938848-removebg-preview.png"
+                    alt=""></a>
+            <h3>Acheter</h3>
+            <a href=""> <img class="settings" src="img/icons8-setting-24.png" alt=""></a>
+            <a class="option-menu" href=""><img src="img/dots.png" alt=""></a>
+        </div>
+    </header>
+
+    <section>
+        
+    </section>
+
+    <section class="buy">
+
+        <div class="journey">
+            <div class="left">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
+                <div class="left-text">
+                    <h4>1 VOYAGE AIX EN BUS</h4>
+                    <p>Valable 60 minutes</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="how-much">
+                    <button class="less">-</button>
+                    <h4>0</h4>
+                    <button class="more">+</button>
+                </div>
+                <h5>1,20€</h5>
+            </div>
+        </div>
+
+        <div class="journey">
+            <div class="left">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
+                <div class="left-text">
+                    <h4>10 VOYAGE AIX EN BUS</h4>
+                    <p>Valable 60 minutes sur Aix en Bus Multi-validable</p>
+                </div>
+            </div>
+
+            <div class="right">
+
+                <div class="how-much">
+                    <button class="less">-</button>
+                    <h4 id="0">0</h4>
+                    <button class="more">+</button>
+                </div>
+                <h5 class="second">9,00€</h5>
+            </div>
+        </div>
+
+        <div class="order">
+            <h5 class="total">Total: 1,20€</h5>
+            <button class="btn1">Acheter (1)</button>
+        </div>
+
+    </section>
+
+
+    <section class="pay">
+
+        <div class="total-order">
+
+            <div class="price">
+                <h4>Total de la commande: <span>1,20€</span></h4>
+            </div>
+            <div class="what-journey">
+                <p>1 VOYAGE AIX EN BUS <span> 1 x 1,20€</span></p>
+            </div>
+
+            <!-- checkbox a modifier= label -->
+            <div class="condition">
+               <input class="check" type="checkbox">
+                <p>J,ai lu et j'accepte les <a href="">conditions generales de vente</a></p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button class="btn2">Payer</button>
+        </div>
+
+    </section>
+
+    <section class="payment">
+
+        <div class="head-page">
+            <img src="/img/2560px-La_Métropole_Mobilité.svg-removebg-preview.png" alt="">
+            <p>FR</p>
+        </div>
+
+        <div class="amount">
+            <h4>Montant : 1,20 EUR</h4>
+            <img src="/img/MediaWiki_Vector_skin_action_arrow.svg.png" alt="">
+        </div>
+
+        <form class="personal D" action="">
+
+            <div class="number">
+                <div class="cart">
+                    <label for="carte">Numéro de carte</label>
+                    <input type="tel" id="carte">
+                    <img src="img/credit_card_cards_icon_153986-removebg-preview.png" alt="">
+                </div>
+                <div class="icon">
+                    <button>?</button>
+                </div>
+            </div>
+
+            <div class="expired">
+
+                <div class="left">
+                    <label for="mois">Expire fin</label>
+                    <input type="number" id="mois" placeholder="mois" name="mois">
+                    <!-- <select name="mois" id="mois">
+                        <option value="">mois</option>
+                        <option value="">01-Janvier</option>
+                        <option value="">02-Février</option>
+                        <option value="">03-Mars</option>
+                        <option value="">04-Avril</option>
+                        <option value="">05-Mai</option>
+                    </select> -->
+                </div>
+                <div class="right">
+                    <label for="">.</label>
+                    <input type="number" placeholder="année">
+                </div>
+            </div>
+
+            <div class="secret-code">
+            <div class="code">
+                <label for="code">Cryptogramme visuel</label>
+                <input type="tel" id="code">
+            </div>
+            <div class="icon">
+                <button>?</button>
+            </div>
+        </div>
+
+
+            <div class="btn">
+                <button>Valider</button>
+            </div>
+
+            <div class="cart-name">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-03.png" alt="">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-18.png" alt="">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-29.png" alt="">
+            </div>
+        </form>
+
+        <div class="brand">
+        <div class="cancel">
+           <a href="">Annuler et retourner a la boutique</a>  
+        </div>
+           <div class="footer">
+
+            <div class="left">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-37.png" alt="">
+                <p>Copyright Lyra © 2024</p>
+            </div>
+
+            <div class="right">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-43.png" alt="">
+                <a href="">Mentions légales</a>
+            </div>
+           </div>
+        </div>
+
+    </section>
+
+    <section class="finish">
+        
+        <div class="accept">
+        <img src="img/Capture d’écran du 2024-06-03 00-08-51.png" alt="">
+        <h4>Paiement accepté</h4>
+        <p>Retrouvez vos titres dans le compte et utilisez-les pour voyages facilement</p>
+    </div>
+
+        <div class="btn">
+            <button>Fermer</button>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
